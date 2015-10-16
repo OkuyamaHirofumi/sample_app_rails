@@ -45,7 +45,7 @@ group :production do
 	gem 'pg','0.15.1'
 	gem 'rails_12factor','0.0.2'
 end
-
+gem 'test-unit'
 #ENV['NOKOGIRI_USE_SYSTEM_LIBRARIES'] = 'YES'
 #gem 'nokogiri','1.6.0'
 # Use ActiveModel has_secure_password
